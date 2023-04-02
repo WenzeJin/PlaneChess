@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QWidget" name="Settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Heiti SC</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>281</width>
+     <height>194</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label1">
+      <property name="font">
+       <font>
+        <family>Heiti SC</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>请选择玩家人数</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="playernum">
+      <property name="font">
+       <font>
+        <family>Heiti SC</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="minimum">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <number>4</number>
+      </property>
+      <property name="value">
+       <number>4</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="nameBox_0">
+      <property name="font">
+       <font>
+        <family>Heiti SC</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>--请输入玩家昵称或者选择电脑玩家--</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>--请输入玩家昵称或者选择电脑玩家--</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>**电脑玩家**</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="nameBox_1">
+      <property name="font">
+       <font>
+        <family>Heiti SC</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>--请输入玩家昵称或者选择电脑玩家--</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>--请输入玩家昵称或者选择电脑玩家--</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>**电脑玩家**</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="nameBox_2">
+      <property name="font">
+       <font>
+        <family>Heiti SC</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>--请输入玩家昵称或者选择电脑玩家--</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>--请输入玩家昵称或者选择电脑玩家--</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>**电脑玩家**</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="nameBox_3">
+      <property name="font">
+       <font>
+        <family>Heiti SC</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>--请输入玩家昵称或者选择电脑玩家--</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>--请输入玩家昵称或者选择电脑玩家--</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>**电脑玩家**</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="applyButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Heiti SC</family>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>应用设置</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

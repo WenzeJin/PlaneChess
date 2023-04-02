@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>resource/BLplane.png</file>
+        <file>resource/Easymode.png</file>
+        <file>resource/GRplane.png</file>
+        <file>resource/RDplane.png</file>
+        <file>resource/YLplane.png</file>
+        <file>resource/dice_1.jpg</file>
+        <file>resource/dice_2.jpg</file>
+        <file>resource/dice_3.jpg</file>
+        <file>resource/dice_4.jpg</file>
+        <file>resource/dice_5.jpg</file>
+        <file>resource/dice_6.jpg</file>
+        <file>resource/standardmap.png</file>
+        <file>resource/BL.png</file>
+        <file>resource/GR.png</file>
+        <file>resource/RD.png</file>
+        <file>resource/YL.png</file>
+    </qresource>
+</RCC>
