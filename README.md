@@ -6,5 +6,5 @@ NJU大一上程设大作业飞行棋——使用Qt框架实现 其中尝试学�
 --
 |- new(codes here)
 |- 飞行棋(executable files)
-|- 实验报告(Detailed explanation)
+|- 实验报告(detailed explanation)
 ```
